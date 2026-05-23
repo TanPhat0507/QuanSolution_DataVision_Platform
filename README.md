@@ -3,7 +3,7 @@
 
 ---
 
-## 🎯 Overview
+## Overview
 The core objective of this repository and role is to build a robust data foundation. The main responsibility is to make data **structured, reliable, queryable, and dashboard-ready** to drive accurate analytics and business intelligence.
 
 ## Key Ownership & Responsibilities
