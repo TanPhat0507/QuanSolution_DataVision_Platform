@@ -1,6 +1,4 @@
-# 📊 Data Architecture & Analytics Foundation
-
-**Role:** Data Intern - Database, Quality, and Analytics Owner  
+# 📊 Database, Quality, and Analytics Owner
 **Author:** Lý Tấn Phát
 
 ---
