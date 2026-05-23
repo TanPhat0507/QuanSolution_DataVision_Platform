@@ -1,0 +1,160 @@
+# WEEK 1 WORK PLAN: DATABASE & ANALYTICAL FOUNDATION
+**Role:** Database, Quality, and Analytics Owner  
+**Owner:** Ly Tan Phat  
+
+---
+
+## 📌 Weekly Objective (Platform Focus)
+Understand the overall platform architecture, complete local environment setups, gain role clarity, map out basic prototype pipelines, and submit all required architectural understanding documentation. 
+
+*Crucial Note: No complex production modules or advanced SQL scripts should be built this week. Focus is strictly on clarity, tool installation, and baseline verification tasks.*
+
+---
+
+## 📅 Day-by-Day Detailed Schedule
+
+
+## Saturday
+### What did I complete yesterday?
+Reviewed the project requirements and system architecture flow between ETL/ELT, Storage Layer, Processing & AI Layer, and Application Layer.
+Planned the PostgreSQL and DBeaver installation process.
+Prepared environment setup notes for database development.
+
+### What will I complete today?
+Install PostgreSQL 17 and configure the default PostgreSQL service.
+Install DBeaver 26.0.2 and connect it with PostgreSQL.
+Create a testing database named platform_db_dev.
+
+### What blocker do I have?
+Need to verify PostgreSQL service configuration and port availability.
+Initial environment setup may require troubleshooting connection issues.
+
+### What output will I submit today?
+Screenshot of successful PostgreSQL connection in DBeaver.
+postgres_setup_confirmation.md with installation confirmation details.
+
+---
+
+## Sunday
+### What did I complete yesterday?
+Successfully installed PostgreSQL 17 and DBeaver 26.0.2.
+Created and connected to the platform_db_dev database.
+Verified PostgreSQL service and database connectivity.
+
+### What will I complete today?
+Research the system architecture and understand the data flow between layers.
+Study how Storage Layer interacts with ETL/ELT pipelines and AI Processing modules.
+Document architecture understanding for assessment preparation.
+
+### What blocker do I have?
+Need additional clarification on how vector data flows into RAG pipelines.
+Some architecture components require deeper understanding.
+
+### What output will I submit today?
+Architecture research notes.
+Summary document explaining Storage Layer responsibilities.
+
+---
+
+## Monday
+### What did I complete yesterday?
+Analyzed the system architecture and identified the role of PostgreSQL in the Storage Layer.
+Understood how ETL pipelines provide data to Processing & AI modules.
+Documented the relationship between dashboards, reports, and analytics outputs.
+
+### What will I complete today?
+Research pgvector extension and vector embeddings in PostgreSQL.
+Learn similarity search methods including L2 Distance, Cosine Distance, and Inner Product.
+Explore vector data type usage with embeddings.
+
+### What blocker do I have?
+Need more practice with vector similarity queries in SQL.
+Limited hands-on experience with pgvector indexing.
+
+### What output will I submit today?
+pgvector research summary.
+Notes about vector data types and distance metrics.
+
+---
+
+## Tuesday
+### What did I complete yesterday?
+Studied pgvector concepts and vector embedding storage.
+Learned the differences between Euclidean, Cosine, and Inner Product distance metrics.
+Understood why pgvector simplifies ETL/ELT architecture.
+
+### What will I complete today?
+Design the initial database schema with at least 9 required tables.
+Define the purpose, storage responsibility, and module usage for each table.
+Create initial_database_table_list.md.
+
+### What blocker do I have?
+Need to carefully separate staging, core, and analytics tables.
+Table relationships and ETL flow mapping require validation.
+
+### What output will I submit today?
+initial_database_table_list.md
+Initial database schema design draft.
+
+---
+
+## Wednesday
+### What did I complete yesterday?
+Designed the initial database table structure.
+Identified tables for ingestion, document processing, analytics, and prediction logging.
+Defined module ownership for each table.
+
+### What will I complete today?
+Write database design notes for staging, core, and analytics layers.
+Prepare explanations for why each table is necessary.
+Start working on assessment answers.
+
+### What blocker do I have?
+Need to validate whether the table grouping fully supports ETL and RAG workflows.
+Some logging relationships still need refinement.
+
+### What output will I submit today?
+database_owner_understanding.md
+Database design layer classification notes.
+
+---
+
+## Thursday
+### What did I complete yesterday?
+Completed the database design documentation.
+Classified staging, core, and analytics/logging tables.
+Organized the database ownership and module responsibilities.
+
+### What will I complete today?
+Answer all assessment questions related to database ownership and system responsibilities.
+Review PostgreSQL, SQL, and pgvector concepts.
+Prepare standup reporting documentation.
+
+### What blocker do I have?
+Need to ensure all assessment answers align with the architecture design.
+Some workflow explanations may need more technical detail.
+
+### What output will I submit today?
+Finalized assessment answers.
+Updated database_owner_understanding.md.
+
+---
+
+## Friday
+### What did I complete yesterday?
+Finalized the assessment documentation and database design notes.
+Reviewed PostgreSQL architecture, ETL flow, and pgvector integration.
+Completed standup preparation and documentation review.
+
+### What will I complete today?
+Perform final validation of database setup and schema design.
+Review all submitted documents and screenshots.
+Prepare for project discussion and presentation.
+
+### What blocker do I have?
+No major blockers currently.
+Only minor review and formatting adjustments remain.
+
+### What output will I submit today?
+Final project documentation package.
+Completed standup report and database design deliverables.
